@@ -115,7 +115,8 @@ button {
   }
 
   p {
-    /* font-size: 0.6rem; */
+    width: 100%;
+    max-width: 280px;
   }
 
   div {
@@ -129,5 +130,6 @@ button {
     max-width: 58px;
   }
 }
+
 
 
