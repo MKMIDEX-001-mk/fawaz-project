@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN PAGE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <form action="">
+      <i class="fa-regular fa-user"></i>
+      <h2>Wellcome back</h2>
+      <p>please enter your information to sign in</p>
+
+      <div>
+        <img
+          src="./images/Linked_In_Icon_PNG-removebg-preview (1).png"
+          alt=""
+        />
+        <img src="./images/Google-removebg-preview.png" alt="" />
+        <img src="./images/Twitter_X_Icon_PNG-removebg-preview.png" alt="" />
+      </div>
+
+      <fieldset>
+        <label for="email"> Email Address</label> <br />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="password"> Password</label> <br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
+      </fieldset>
+
+      <a class="forget" href="./changePassword.html"> forgot password?</a>
+      <br />
+      <button type="submit">Sign in</button> <br />
+
+      <span>
+        Don't have account yet? <a href="./signup-page.html">Sign up</a></span
+      >
+    </form>
+  </body>
+</html>

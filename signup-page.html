@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup-page</title>
+    <link rel="stylesheet" href="./signup-page.css" />
+  </head>
+  <body>
+    <form action="">
+      <h2>Create Your Account</h2>
+
+      <fieldset>
+        <label for="fullname"> fullname</label> <br />
+        <input
+          class="text"
+          type="text"
+          id="fullname"
+          placeholder="Insert your fullname here"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="Username"> Username</label> <br />
+        <input
+          class="text"
+          type="text"
+          id="Username"
+          placeholder="Insert your Username here"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="password"> password</label> <br />
+        <input
+          class="text"
+          type="password"
+          id="password"
+          placeholder="Insert your password here"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="Gender"> Gender:</label>
+        <span>Male</span> <input type="radio" name="gender" />
+        <span>Female</span> <input type="radio" name="gender" />
+      </fieldset>
+
+      <fieldset>
+        <input type="checkbox" id="Gender" required />
+
+        <label for="Gender"> Read the terms and conditions?</label>
+      </fieldset>
+
+      <button type="submit">Sign up</button>
+    </form>
+  </body>
+</html>
